@@ -6,6 +6,21 @@
     transform: scale(2);
     -webkit-transform: scale(2);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .custom-control-input-green:focus~.custom-control-label::before {
     border-color: #28a745 !important;
     box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25) !important;

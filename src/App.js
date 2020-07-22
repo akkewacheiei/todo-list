@@ -10,7 +10,8 @@ class App extends Component {
     list:[],
     id:uuid(),
     item:"",
-    editStatus:false
+    editStatus:false,
+    checkStatus:false
   };
 /////////////////////////////////////////////////////////เมื่อกดปุ่มSubmit
   handleSubmit=(e)=>{
@@ -33,7 +34,6 @@ class App extends Component {
       item:e.target.value
     })
   }
-
   clearList=()=>{
     this.setState({
       list:[]
